@@ -3,3 +3,4 @@ check readme for details to use api on local server
 
 github_url=https://github.com/arunkumarchauhan/bankingapp
 
+deployed_link=https://bankingxkcd.herokuapp.com/banking/api/
