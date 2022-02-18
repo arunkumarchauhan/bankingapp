@@ -1,12 +1,12 @@
- Postgres local installation does not require db in hosted on heroku
-Steps to run on localserver:
-1.Postgres should be installed:
-2.create db in postgres and replace dbname in settings.py file
-3.run command python manage.py makemigrations
-4.run command python manage.py migrate
-5.run command python manage.py runserver
-6.To insert data from provided json url to db use api  1 below 
-7.now you can start using other the api for querying
+ Postgres local installation does not require db in hosted on heroku<br>
+Steps to run on localserver:<br>
+1.Postgres should be installed:<br>
+2.create db in postgres and replace dbname in settings.py file<br>
+3.run command python manage.py makemigrations<br>
+4.run command python manage.py migrate<br>
+5.run command python manage.py runserver<br>
+6.To insert data from provided json url to db use api  1 below <br>
+7.now you can start using other the api for querying<br>
 
 local_base_url='http://localhost:8000/banking/api/'
 deployed_base_url='https://bankingxkcd.herokuapp.com/banking/api/'
