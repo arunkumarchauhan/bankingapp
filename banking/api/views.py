@@ -137,4 +137,4 @@ class AddTransaction(APIView):
 
         except Exception as e:
             logger.exception(e)
-            return Response(data={"message": "Something went wrong."}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            return Response(data={"message": "Something went wrong.",'error':str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
