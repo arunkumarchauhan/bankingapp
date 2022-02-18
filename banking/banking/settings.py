@@ -76,28 +76,28 @@ WSGI_APPLICATION = 'banking.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 # Local DB
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'myproject',
-        'USER': 'myprojectuser',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': 5432,
-    }
-}
-
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'postgres',
-#         'USER': 'mlb_admin@mlb-dev',
-#         'PASSWORD': 'ARuQT9H62wyCLT7nS44LaLH9c7pWJSVv',
-#         'HOST': 'mlb-dev.postgres.database.azure.com',
+#         'NAME': 'myproject',
+#         'USER': 'myprojectuser',
+#         'PASSWORD': 'password',
+#         'HOST': 'localhost',
 #         'PORT': 5432,
-#         'CONN_MAX_AGE': 0
 #     }
 # }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'deedbekm5lnbu5',
+        'USER': 'roagcfcjeprqdh',
+        'PASSWORD': '2d64d8a481a1ee7e0d8bd701d8e75001a4128659fc38ef27eae9beb025e2ee6b',
+        'HOST': 'ec2-52-215-225-178.eu-west-1.compute.amazonaws.com',
+        'PORT': 5432,
+        'CONN_MAX_AGE': 0
+    }
+}
 
 
 # Password validation
