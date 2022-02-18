@@ -8,12 +8,12 @@
 6.To insert data from provided json url to db use api  1 below <br>
 7.now you can start using other the api for querying<br>
 
-# local_base_url='http://localhost:8000/banking/api/'<br>
-# deployed_base_url='https://bankingxkcd.herokuapp.com/banking/api/'
+### local_base_url='http://localhost:8000/banking/api/'<br>
+### deployed_base_url='https://bankingxkcd.herokuapp.com/banking/api/'
 
-# base_url=local_base_url or deployed_base_url
+### base_url=local_base_url or deployed_base_url
 
-# mere this url 'https://bankingxkcd.herokuapp.com' will give not found as nothing is setup on root url
+### mere this url 'https://bankingxkcd.herokuapp.com' will give not found as nothing is setup on root url
 
 1.Add Transactions from json url provided to DB<br>
 request type=GET<br>
