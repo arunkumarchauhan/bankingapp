@@ -1,4 +1,4 @@
- 
+ Postgres local installation does not require db in hosted on heroku
 Steps to run on localserver:
 1.Postgre should be installed:
 2.create db in postgre and replace dbname in settings.py file
